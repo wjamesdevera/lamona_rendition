@@ -8,11 +8,11 @@ const Navbar = () => {
   return (
     <header className='sticky z-10 left-0 bg-bg-color'>
         <nav className='flex justify-between items-end py-5 px-[5vw]'>
-            <a href="/" className='text-4xl font-paytone-one text-main'>
+            <a href="/" className='xl:text-4xl text-xl font-paytone-one text-main'>
                 lamona
             </a>
             <div className="">
-                <ul className='flex gap-[90px] text-xl font-raleway font-extrabold text-[#787877]'>
+                <ul className='xl:flex hidden gap-[90px] text-xl font-raleway font-extrabold text-[#787877]'>
                     <li>
                         <a href="/" className={`hover:text-main ${isActive('/')}`}>
                             HOME 

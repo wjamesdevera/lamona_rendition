@@ -1,5 +1,4 @@
 import React from 'react'
-import { facebook, twitter, instagram, tiktok } from '../assets'
 
 const Footer = () => {
   return (
