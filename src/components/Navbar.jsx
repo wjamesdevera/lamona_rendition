@@ -6,7 +6,7 @@ const Navbar = () => {
         return location.pathname === path ? 'text-main' : '';
     }
   return (
-    <header className='sticky z-10 left-0'>
+    <header className='sticky z-10 left-0 bg-bg-color'>
         <nav className='flex justify-between items-end py-5 px-[5vw]'>
             <a href="/" className='text-4xl font-paytone-one text-main'>
                 lamona
