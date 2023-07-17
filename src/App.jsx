@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from './components'
+import { Footer, Navbar } from './components'
 import { Route, Routes } from 'react-router-dom'
 import { Home } from './pages'
 
@@ -11,6 +11,7 @@ const App = () => (
         <Route path='/' element={<Home/>}/>
       </Routes>
     </div>
+    <Footer className='shrink-0'></Footer>
   </div>
 )
 

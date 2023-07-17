@@ -14,27 +14,27 @@ const Navbar = () => {
             <div className="">
                 <ul className='flex gap-[90px] text-xl font-raleway font-extrabold text-[#787877]'>
                     <li>
-                        <a href="" className={`hover:text-main ${isActive('/')}`}>
+                        <a href="/" className={`hover:text-main ${isActive('/')}`}>
                             HOME 
                         </a>
                     </li>
                     <li>
-                        <a href="" className={`hover:text-main ${isActive('/about')}`}>
+                        <a href="/about" className={`hover:text-main ${isActive('/about')}`}>
                             ABOUT
                         </a>
                     </li>
                     <li>
-                        <a href="" className={`hover:text-main ${isActive('/directory')}`}>
+                        <a href="/directory" className={`hover:text-main ${isActive('/directory')}`}>
                             DIRECTORY
                         </a>
                     </li>
                     <li>
-                        <a href="" className={`hover:text-main ${isActive('/favorites')}`}>
+                        <a href="/favorites" className={`hover:text-main ${isActive('/favorites')}`}>
                             FAVORITES
                         </a>
                     </li>
                     <li>
-                        <a href="" className={`hover:text-main ${isActive('/choose')}`}>
+                        <a href="/choose" className={`hover:text-main ${isActive('/choose')}`}>
                             CAN'T DECIDE?
                         </a>
                     </li>

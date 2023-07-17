@@ -10,11 +10,11 @@ const Hero = () => {
                 What are you craving today?
             </h1>
             <div className="text-xl font-bold flex justify-center items-center gap-3">
-                <a href="" className='flex-1'>
-                    <button className='w-[290px] h-[90px] text-2xl rounded-full border-4 border-main text-main px-14 py-3 hover:bg-main hover:text-bg-color'>DIRECTORY</button>
+                <a href="/directory" className='flex-1'>
+                    <button className='w-[290px] h-[90px] text-2xl rounded-[30px] border-4 border-main text-main px-14 py-3 hover:bg-main hover:text-bg-color'>DIRECTORY</button>
                 </a>
-                <a href="" className='flex-1'>
-                    <button className='w-[290px] h-[90px] text-2xl rounded-full border-4 border-main text-main px-12 py-3 hover:bg-main hover:text-bg-color'>CAN'T DECIDE?</button>
+                <a href="/choose" className='flex-1'>
+                    <button className='w-[290px] h-[90px] text-2xl rounded-[30px] border-4 border-main text-main px-12 py-3 hover:bg-main hover:text-bg-color'>CAN'T DECIDE?</button>
                 </a>
             </div>
         </div>
