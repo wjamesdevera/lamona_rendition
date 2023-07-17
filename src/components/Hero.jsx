@@ -9,9 +9,13 @@ const Hero = () => {
             <h1 className='text-8xl font-paytone-one text-main'>
                 What are you craving today?
             </h1>
-            <div className="text-xl font-bold grid grid-cols-2 gap-3">
-                <button className='rounded-3xl border-4 border-main text-main px-16 py-4'>DIRECTORY</button>
-                <button className='rounded-3xl border-4 border-main text-main px-16 py-4'>CAN'T DECIDE?</button>
+            <div className="text-xl font-bold flex justify-center items-center gap-3">
+                <a href="" className='flex-1'>
+                    <button className='w-[290px] h-[90px] text-2xl rounded-full border-4 border-main text-main px-14 py-3 hover:bg-main hover:text-bg-color'>DIRECTORY</button>
+                </a>
+                <a href="" className='flex-1'>
+                    <button className='w-[290px] h-[90px] text-2xl rounded-full border-4 border-main text-main px-12 py-3 hover:bg-main hover:text-bg-color'>CAN'T DECIDE?</button>
+                </a>
             </div>
         </div>
     </main>
