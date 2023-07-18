@@ -5,9 +5,9 @@ import { directory } from '../constants'
 const Directory = () => {
   const checkTag = (tag) => {
     if (tag === 'All' || tag === 'Food' || tag === 'Drinks') {
-      return "bg-purple-100"
+      return "bg-purple-200"
     } else if (tag.includes('₱')) {
-      return "bg-green-100"
+      return "bg-green-200"
     } else {
       return "bg-red-100"
     }
@@ -172,10 +172,10 @@ const Directory = () => {
                 <h3 className={`font-paytone-one text-main text-3xl`}>
                   {store.title}
                 </h3>
-                <p>
+                <p className='whitespace-nowrap text-ellipsis overflow-hidden'>
                   {store.location}
                 </p>
-                <p className={`my-2 flex flex-wrap gap-2`}>
+                <p className={`my-2 flex flex-wrap gap-1 text-sm`}>
                   {store.tags.map((tag, i) => (
                     <span key={0 + i} className={`${checkTag(tag)} rounded-md py-1 px-2`}>{tag}</span>
                   ))}
