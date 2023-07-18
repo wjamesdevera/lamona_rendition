@@ -12,6 +12,7 @@ const App = () => (
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
+          <Route path='/directory' element={<Directory/>}/>
         </Routes>
       </div>
       <Footer className='shrink-0'></Footer>

@@ -7,6 +7,7 @@ import sunnySideThree from './Sunny Side Up (3).png';
 import yolkStandTwo from './Yolk Standing 2.png';
 import yolkStand from './Yolk Standing.png';
 import yolk from './yolk.png'
+import empty from './empty.svg'
 
 export {
     chef,
@@ -18,4 +19,5 @@ export {
     yolkStandTwo,
     yolkStand,
     yolk,
+    empty,
 };

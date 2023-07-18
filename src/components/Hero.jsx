@@ -6,7 +6,7 @@ const Hero = () => {
     <main className='w-full bg-bg-color flex justify-center items-center grow min-content h-full'>
         <Background/>
         <div className="flex flex-col justify-center items-center max-w-[850px] text-center gap-12">
-            <div className="flex flex-col justify-center items-center gap-12 sm:mt-24">
+            <div className="flex flex-col justify-center items-center gap-12 mt-24">
                 <h1 className='xl:text-8xl sm:text-6xl text-3xl font-paytone-one text-main'>
                     What are you craving today?
                 </h1>
