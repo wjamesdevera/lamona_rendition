@@ -1,6 +1,6 @@
 import React from 'react'
 import { Background } from '../components'
-import { yolk, chef } from '../assets'
+import { yolk, chef, sunnySideOne } from '../assets'
 
 const About = () => {
   return (
@@ -44,7 +44,7 @@ const About = () => {
           </a>
 
           <a href='https://docs.google.com/forms/d/e/1FAIpQLSeIV4n1Vo_Qste9ub1wIdBMJGFHvi54067tSKhQhbyo-LFi2Q/viewform' target='_blank' className="card-hover rounded-xl drop-shadow-lg bg-white px-5 py-4 flex xl:flex-col justify-center items-center gap-3 flex-1">
-            <img src={yolk} alt="" className='w-[50px] xl:w-[85px]'/>
+            <img src={sunnySideOne} alt="" className='w-[50px] xl:w-[85px]'/>
             <div className="flex flex-col xl:items-center justify-center xl:text-center">
               <h3 className='text-sm sm:text-base xl:text-lg font-rubik font-bold text-main'>
                 Did you see an Error?

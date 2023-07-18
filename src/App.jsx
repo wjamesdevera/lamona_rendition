@@ -13,6 +13,7 @@ const App = () => (
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/directory' element={<Directory/>}/>
+          <Route path='/favorites' element={<Favorites/>}/>
         </Routes>
       </div>
       <Footer className='shrink-0'></Footer>
