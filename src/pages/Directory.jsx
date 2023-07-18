@@ -166,7 +166,7 @@ const Directory = () => {
           {directory.map((store) => (
             <div key={store.id} className={`bg-white drop-shadow-xl pb-3 rounded-2xl w-full overflow-hidden`}>
               <div className={`h-[150px]`}>
-                <img src={empty} alt="" className={`w-full h-full object-cover`}/>
+                <img src={store.img_src} alt="" className={`w-full h-full object-cover`}/>
               </div>
               <div className={`mt-4 px-4`}>
                 <h3 className={`font-paytone-one text-main text-3xl`}>

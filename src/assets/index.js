@@ -12,7 +12,7 @@ import cafe_00 from './directory/00_cafe.png'
 import twelve_hour from './directory/12hr.png'
 import chicken_24 from './directory/24chicken.png'
 import sixty_ninth from './directory/69th.png'
-import lacson_711 from './directory/711_lacson.png'
+import dapitan_711 from './directory/711_lacson.png'
 import noval_711 from './directory/711_lacson.png'
 import acustica from './directory/acustica.png'
 import affinitea from './directory/affinitea.png'
@@ -36,7 +36,7 @@ export {
     twelve_hour,
     chicken_24,
     sixty_ninth,
-    lacson_711,
+    dapitan_711,
     noval_711,
     acustica,
     affinitea,
