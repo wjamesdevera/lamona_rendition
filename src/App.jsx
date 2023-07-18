@@ -6,7 +6,7 @@ import { Home, About, Directory, Favorites, Choose } from './pages'
 
 const App = () => (
   <Router>
-    <div className='flex flex-col bg-bg-color text-text-body font-rubik overflow-hidden h-screen'>
+    <div className='flex flex-col bg-bg-color text-text-body font-rubik overflow-hidden min-h-screen'>
       <Navbar/>
       <div className="bg-bg-color grow">
         <Routes>
