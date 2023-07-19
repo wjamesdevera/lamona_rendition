@@ -6,7 +6,7 @@ const About = () => {
   return (
     <main className='flex flex-col justify-center items-center px-20 xl:px-96 pt-20'>
       <Background className='-z-10 opacity-50'></Background>
-      <div className="text-center mx-auto max-w-[700px] mb-12 z-20">
+      <div className="text-center mx-auto max-w-[700px] mb-12">
           <h1 className='font-paytone-one font-bold text-3xl sm:text-5xl xl:text-7xl text-main mb-6'>
               About Lamona
           </h1>

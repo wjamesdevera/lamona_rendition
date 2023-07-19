@@ -1,6 +1,8 @@
-import React from 'react'
+import {React, useState} from 'react'
 import { empty } from '../assets'
 import { directory } from '../constants'
+import { Link } from 'react-router-dom'
+import { sugar_daddy } from '../assets'
 
 const Directory = () => {
   const checkTag = (tag) => {
@@ -12,6 +14,7 @@ const Directory = () => {
       return "bg-red-100"
     }
   }
+  const [popOn, setPopUp] = useState(false);
   return (
     <main>
       <div className='px-5 lg:px-20'>
@@ -162,9 +165,9 @@ const Directory = () => {
       </div>
 
       <div className="flex flex-col sm:flex-row justify-center items-center flex-wrap overflow-hidden mt-6 px-6">
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 pb-12">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 pb-12 pt-6">
           {directory.map((store) => (
-            <div key={store.id} className={`bg-white drop-shadow-xl pb-3 rounded-2xl w-full overflow-hidden`}>
+            <Link key={store.id} to={`/sugardaddy`} className={`bg-white drop-shadow-xl pb-3 rounded-2xl w-full overflow-hidden hover:-translate-y-2 hover:drop-shadow-2xl`}>
               <div className={`h-[150px]`}>
                 <img src={store.img_src} alt="" className={`w-full h-full object-cover`}/>
               </div>
@@ -177,11 +180,11 @@ const Directory = () => {
                 </p>
                 <p className={`my-2 flex flex-wrap gap-1 text-sm`}>
                   {store.tags.map((tag, i) => (
-                    <span key={0 + i} className={`${checkTag(tag)} rounded-md py-1 px-2`}>{tag}</span>
+                    <span key={0 + i} className={`${checkTag(tag)} rounded-md p-1`}>{tag}</span>
                   ))}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
