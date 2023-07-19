@@ -20,6 +20,8 @@ import albeth from './directory/albeth.png'
 import jograts from './directory/jograts.png'
 import sugar_daddy from './directory/sugar_daddy.png'
 import takoyaki from './directory/takoyaki.png'
+import sugar_menu_1 from './directory/sugar_menu-1.png'
+import sugar_menu_2 from './directory/sugar_menu-2.png'
 
 export {
     chef,
@@ -44,4 +46,6 @@ export {
     jograts,
     sugar_daddy,
     takoyaki,
+    sugar_menu_1,
+    sugar_menu_2
 };

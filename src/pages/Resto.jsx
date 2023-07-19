@@ -1,5 +1,5 @@
 import React from 'react'
-import { sugar_daddy, eggSit, sunnySideThree } from '../assets'
+import { sugar_daddy, eggSit, sunnySideThree, sugar_menu_1, sugar_menu_2 } from '../assets'
 
 const Resto = () => {
   return (
@@ -114,12 +114,12 @@ const Resto = () => {
                         <h3 className='font-rubik font-semibold text-2xl text-secondary'>
                             $ugar Daddy Menu
                         </h3>
-                        <div className="overflow-x-auto overflow-hidden">
-                            <div className="border-2 border-black">
-                                <img src="" alt="" className='object-cover'/>
+                        <div className="overflow-x-auto flex  flex-nowrap w-full gap-8 mt-4 mb-5">
+                            <div className="border-2 border-black rounded-xl h-[150px] basis-52 flex-grow-0 flex-shrink-0 mb-1">
+                                <img src={sugar_menu_1} alt="" className='object-cover w-full h-full opacity-75 rounded-xl'/>
                             </div>
-                            <div className="border-2 border-black">
-                                <img src="" alt="" className='object-cover'/>
+                            <div className="border-2 border-black rounded-xl h-[150px] basis-52 flex-grow-0 flex-shrink-0 mb-1">
+                                <img src={sugar_menu_2} alt="" className='object-cover w-full h-full opacity-75 rounded-xl'/>
                             </div>
                         </div>
                     </div>
